@@ -1,0 +1,211 @@
+:root {
+    /*Colores*/
+    --taquito-blue: linear-gradient(rgb(67,104,167), rgba(70, 109, 175, 0.95));
+    --white: #fefefe;
+    --main-blue: #4367A7;
+    --buttons-blue: #11456D;
+    --buttons-blue2: #2289BF;
+    --taquito-yellow: #FFCD00;
+    --titles-blue: #466DAF;
+    --taquito-black: #444444;
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM sans', sans-serif;
+}
+body {
+    background: var(--taquito-blue);
+}
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    min-width: 320px;
+    height: 140px;
+    text-align: center;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    min-width: 320px;
+    height: auto;
+    margin: 30px auto;
+    padding: 35px 35px 20px;
+    border-radius: 1rem;
+    background-color: var(--white);
+}
+.main--title-container {
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    text-align: justify;
+}
+.title {
+    font-size: 32px;
+    color: var(--titles-blue);
+}
+.subtitle {
+    font-size: 26px;
+    color: var(--taquito-yellow);
+}
+p {
+    font-size: 16px;
+    color: var(--taquito-black);
+    margin-top: 15px;   
+}
+.main--hello-picture {
+    min-width: 280px;
+    max-width: 320px;
+    min-height: 280px;
+    max-height: 320px;
+    margin: 0 auto;
+    align-content: center;
+}
+.main--hello-picture img{
+    width: 100%;
+}
+.main--bullets-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.bullet {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.bullet span{
+    display: inline-block;
+    width: 140px;
+    height: 120px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bullet .mobile-apps {
+    background-image: url(./assets/f-icon-1.png);
+}
+.bullet .web-apps {
+    background-image: url(./assets/f-icon-2.png);
+}
+.bullet .consultancy {
+    background-image: url(./assets/f-icon-3.png);
+}
+.bullet .CS {
+    background-image: url(./assets/f-icon-4.png);
+}
+.main--subtitle-container {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.main--button-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.button {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+    padding: 15px;
+    background: var(--buttons-blue2);
+    border-radius: 1rem;
+    border: none;
+    font-size: 16px;
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+}
+.button:hover{
+    background: var(--buttons-blue);
+}
+.main--button-container p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.main--farewell-container {
+    padding-top: 20px;
+    border-top: 1px solid  #777777;
+}
+.main--farewell-container p{
+    color: var(--titles-blue);
+    font-weight: bold;
+}
+footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    width: 60%;
+    min-width: 320px;
+    height: auto;
+    margin: 40px auto;
+    padding-top: 60px;
+    background: none;
+    border-top: 1px solid var(--white);
+}
+footer picture {
+    display: inline-block;
+    width: 100%;
+}
+footer picture img {
+    width: 100%;
+}
+footer .info{
+    display: inline-block;
+    width: auto;
+    padding: 20px;
+    margin: 0 20px;
+}
+footer .info p{
+    color: var(--white);
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+}
+footer .social-media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+footer .social-media span{
+    align-self: auto;
+    width: 24px;
+    height: 24px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+footer .social-media .facebook{
+    background-image: url(./assets/icons8-facebook.svg);
+}
+footer .social-media .instagram {
+    background-image: url(./assets/icons8-instagram-old.svg);
+}
+footer .social-media .whatsapp {
+    background-image: url(./assets/icons8-whatsapp.svg);
+}
