@@ -43,6 +43,7 @@ main {
     padding: 35px 35px 20px;
     border-radius: 1rem;
     background-color: var(--white);
+    box-shadow: 0px 0px 8px rgb(89 73 30 / 20%);
 }
 .main--title-container {
     width: 100%;
@@ -98,16 +99,16 @@ p {
     background-repeat: no-repeat;
 }
 .bullet .mobile-apps {
-    background-image: url(./assets/f-icon-1.png);
+    background-image: url(https://www.taquitosoftware.com.mx/assets/img/icon/f-icon-1.png);
 }
 .bullet .web-apps {
-    background-image: url(./assets/f-icon-2.png);
+    background-image: url(https://www.taquitosoftware.com.mx/assets/img/icon/f-icon-2.png);
 }
 .bullet .consultancy {
-    background-image: url(./assets/f-icon-3.png);
+    background-image: url(https://www.taquitosoftware.com.mx/assets/img/icon/f-icon-3.png);
 }
 .bullet .CS {
-    background-image: url(./assets/f-icon-4.png);
+    background-image: url(https://www.taquitosoftware.com.mx/assets/img/icon/f-icon-4.png);
 }
 .main--subtitle-container {
     display: inline-block;
@@ -192,7 +193,7 @@ footer .social-media {
     justify-content: space-evenly;
     width: 100%;
 }
-footer .social-media span{
+footer .social-media a{
     align-self: auto;
     width: 24px;
     height: 24px;
@@ -201,11 +202,11 @@ footer .social-media span{
     background-repeat: no-repeat;
 }
 footer .social-media .facebook{
-    background-image: url(./assets/icons8-facebook.svg);
+    background-image: url(https://img.icons8.com/metro/26/ffffff/facebook.png);
 }
 footer .social-media .instagram {
-    background-image: url(./assets/icons8-instagram-old.svg);
+    background-image: url(https://img.icons8.com/metro/26/ffffff/instagram-new.png);
 }
 footer .social-media .whatsapp {
-    background-image: url(./assets/icons8-whatsapp.svg);
+    background-image: url(https://img.icons8.com/pastel-glyph/64/ffffff/whatsapp--v2.png);
 }
