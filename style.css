@@ -43,7 +43,7 @@ main {
     padding: 35px 35px 20px;
     border-radius: 1rem;
     background-color: var(--white);
-    box-shadow: 0px 0px 8px rgb(89 73 30 / 20%);
+    box-shadow: 0px 0px 20px rgb(89 73 30 / 40%);
 }
 .main--title-container {
     width: 100%;
